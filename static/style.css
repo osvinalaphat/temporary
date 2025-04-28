@@ -3,7 +3,7 @@
 }
 #biog{
     position: absolute;
-    
+    top: 100px;
 }
 
 #menuArrow{
@@ -46,6 +46,7 @@
     background-color: #aabbaa;
     z-index:3;
 }
+
 
 #writeheadbar{
     background-color: white;
@@ -132,4 +133,38 @@
     z-index: 2;
     text-align: center;
     display: none;
+}
+#templates{
+    border-color: #dd9944;
+    border-style: solid;
+    background-color: #fabf37;
+    z-index:3;
+}
+#templatesHeadbar{
+    background-color: white;
+    /*width:240px;
+    height:30px;*/
+    text-align: center;
+    border-color:#dd9944;
+    border-style: solid;
+    top:-30px;
+    padding: 10px;
+    cursor: move;
+    /*z-index: 3;*/
+}
+#templatesCloser{
+    position: absolute;
+    right:2px;
+    top:2px;
+}
+
+#loginBox{
+    position:absolute;
+    top:38%;
+    left:38%;
+}
+#signinBox{
+    position:absolute;
+    top:28%;
+    left:38%;
 }
